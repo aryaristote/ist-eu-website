@@ -10,16 +10,16 @@ const LanguageSelector = () => {
   const router = useRouter();
 
   useEffect(() => {
-    const savedLanguage = localStorage.getItem('language') || 'en';
-    if (i18n.language !== savedLanguage) {
-      i18n.changeLanguage(savedLanguage);
+    // Force language to English
+    if (i18n.language !== 'en') {
+      i18n.changeLanguage('en');
     }
   }, [i18n]);
 
   const changeLanguage = () => {
-    const newLanguage = i18n.language === 'en' ? 'rw' : 'en';
+    const newLanguage = i18n.language === 'en' ? 'en' : 'rw';
     i18n.changeLanguage(newLanguage);
-    localStorage.setItem('language', newLanguage); 
+    localStorage.setItem('language', newLanguage);
   };
 
   return (
