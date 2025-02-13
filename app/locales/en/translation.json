@@ -1,0 +1,269 @@
+{
+  "navBarItems": {
+    "about": "About",
+    "services": "Solutions",
+    "contact": "Contact",
+    "pricing": "Pricing"
+  },
+  "cta": "Get started",
+  "login": "Log In",
+  "home": {
+    "heading": "Maximize legal productivity with our AI-powered platform! ",
+    "text": "Empowering Legal Practice with Intelligent Automation."
+  },
+  "foytech": {
+    "heading": "Our Mission",
+    "text": "Led by CEO Mariam M. Muganga, ISTLegal was founded to empower legal experts and is continuously refined by professionals in the field, ensuring it meets the highest standards for generative AI in Rwandan law."
+  },
+  "cookie": {
+    "text": "We use cookies to ensure you get the best experience <br/> on our website. By continuing, you consent to our use of cookies.",
+    "accept": "Accept",
+    "decline": "Decline"
+  },
+  "rumpole": {
+    "heading": "Introducing IST Legal",
+    "text1": "IST Legal is an advanced artificial intelligence platform that revolutionizes legal operations through intelligent automation. Tailored for contemporary law firms, IST Legal is adept at simplifying intricate legal procedures and empowering legal practitioners to prioritize delivering superior client satisfaction by enhancing efficiency, precision, and outcomes."
+  },
+  "try": {
+    "text": "Try it for free"
+  },
+  "contact-us": "Contact us", 
+  "view-more": "View More",
+  "team": {
+    "heading": "The team behind IST Legal Rwanda",
+    "text1": "As the co-founder of two leading tech companies Academic Bridge and KudiBooks, Mariam has been at the forefront of innovation, particularly in integrating AI to transform the education and legal sectors. Her entrepreneurial journey began even before completing her Computer Science degree from the University of Rwanda in 2015, driven by a passion for leveraging technology to solve real-world problems. In her role as CEO of both Academic Bridge and KudiBooks, Mariam has successfully navigated the complexities of business operations, product development, and market expansion. Under her leadership, these ventures have evolved into pioneering platforms that empower educators, students, and businesses.",
+    "text2": "At IST Legal, she’s spearheading the use of AI to automate and streamline legal processes, providing scalable solutions for law firms and legal departments. Her broader vision is to build a self-sustained African tech ecosystem, where homegrown AI-powered solutions drive transformative change. Mariam's commitment to innovation and strategic leadership continues to shape the future of tech entrepreneurship in Africa and beyond."
+  },
+  "faq": {
+    "heading": "Frequently Asked Questions",
+    "haveQuestions": "Have more questions?",
+    "q1": "Can you input sensitive data on the platform ?",
+    "a11": "In the Legal Q&A Module, different AI engines are used from time to time. This means that external AI engines may be used, which means that sensitive data (such as confidential information) should not be entered in prompts, but only pure legal data queries, such as requesting the drafting of a memo/legal research on a certain issue. However, IST Legal cannot be held responsible if the technology is used in violation of these guidelines.",
+    "a12": "IST Legal's professional platform has features to use a local AI engine when processing classified data, enabling the handling of such data with AI technology. Please contact IST Legal for further details on how its professional platform has been designed for adherance to strict customer guidelines on AI usage.",
+    "q2": "What type of data is used in IST Legal platform ?",
+    "a2": "The platform is entirely based on public legal data. In IST Legal's professional platform, it is possible to add your own data sets that complement the public legal data.",
+    "q3": "How secure is the IST Legal AI platform ?",
+    "a3": "Our platform employs enterprise-grade security measures, including end-to-end encryption, secure data storage, and regular security audits. We comply with international data protection standards and ensure your legal documents remain confidential.",
+    "q4": "What types of legal documents can the AI process ?",
+    "a4": "Our AI can process a wide range of legal documents including contracts, agreements, court documents, legal research materials, and regulatory compliance documents. The system is trained on diverse legal texts and can handle multiple languages and jurisdictions.",
+    "q5": "Is training provided for new users ?",
+    "a5": "Yes, we provide comprehensive training for all new users. This includes video tutorials, documentation, live webinars, and one-on-one support sessions. Our customer success team is also available to help you maximize the platform's benefits.",
+    "q6": "Can the system be customized for specific legal practices ?",
+    "a6": "Absolutely! Our AI platform can be customized to match your specific legal practice areas and workflows. We can adapt the system to your firm's terminology, document templates, and specific legal requirements.",
+    "q7": "What kind of support is available ?",
+    "a7": "We offer 24/7 technical support through multiple channels including email, phone, and live chat. Our support team includes legal technology experts who understand both the technical and legal aspects of the platform.",
+    "q8": "How often is the AI system updated ?",
+    "a8": "Our AI system receives regular updates to improve accuracy, add new features, and incorporate the latest legal developments. Updates are automatically deployed and include both performance improvements and new capabilities based on user feedback."
+  },
+  "contact-form": {
+    "heading": "Ready to see it in action?",
+    "text": "Fill out the form to get started. We'll provide you with access to our free version of IST Legal and a short introduction to the platform and the features of the professional version.",
+    "form-heading": "Get started with",
+    "name": "Full name",
+    "email": "Email",
+    "company": "Company",
+    "submit": "Submit request",
+    "submitting": "Submitting...",
+    "success": "Thank you for your request!<br />We will get back to you shortly.",
+    "error": "An error occurred. Please try again.",
+    "qg": "Headquarter",
+    "phone": "Phone"
+  },
+  "service": {
+    "title": "Foyen launches IST Legal for AI technology in Nordic law",
+    "body": "We have a platform that can be used with ready-made sets of legal data, the client's own data, hosted on IST Legal's servers or hosted on the customer's own internal servers, using internal or external AI engines, and with or without customizations of the graphical profile and domain name based on the customer's wishes/needs. IST Legal arranges demonstrations of possible professional solutions upon request. "
+  },
+  "contact": {
+    "subtitle": "CEO of IST Legal, Lawyer and partner at Foyen law firm",
+    "body": "Richard Sahlberg has worked at Foyen Law Firm since 2010, specializing in construction law and procedural law. Prior to that, he was active in the IT industry with various forms of IT development.",
+    "call": "Contact us: "
+  },
+  "footer": {
+    "copyRight": "",
+    "Privacy": "Privacy and data protection",
+    "terms-of-service": "Terms of service"
+  },
+  "terms-of-service": {
+    "heading": "General Terms of Service",
+    "text": "IST Legal provides infrastructure and public legal data. IST Legal takes no responsibility for the information generated by the platform or for information that customers add to the platform.",
+    "full-terms": [
+      {
+        "title": "1. Introduction",
+        "content": [
+          "These general terms of service (“Terms“) apply to the use of IST Legal AI platform. By using the Platform, the user (“User”) accepts these Terms."
+        ]
+      },
+      {
+        "title": "2. Usage",
+        "content": [
+          "2.1 IST Legal grants the User a limited, non-exclusive, non-transferable right to use the Platform in accordance with these Terms.",
+          "2.2 The User may not copy, modify, distribute, sell or rent out any part of the Platform."
+        ]
+      },
+      {
+        "title": "3. Liability",
+        "content": [
+          "3.1 The Platform is provided “as is“ without any warranties, express or implied.",
+          "3.2 The Platform and the responses generated by the Platform are based on publicly available legal data. IST Legal takes no responsibility for the accuracy, completeness and/or up-to-dateness of the legal data.",
+          "3.3 IST Legal also has no responsibility for information that the User adds to the Platform.",
+          "3.4 The use of the Platform and the responses generated by the Platform do not constitute advice and cannot be equated with this. IST Legal thus takes no responsibility for any financial consequences resulting from the given answers and the User's use of them, including the User's possible advice to third parties.",
+          "3.5 Under no circumstances can IST Legal be held liable to the User for indirect losses or consequential damages including but not limited to business losses, loss of expected profit, loss and/or recovery of data, loss of goodwill or other types of consequential damages. IST Legal's total liability under these Terms and the User's use of the Platform is limited to one (1) price base amount.",
+          "3.6 In the event of a User's breach of the Terms, the User shall, in addition to any claims for compensation for unauthorized use of the Platform, compensate IST Legal for all damages incurred by IST Legal as a result of such breach of contract."
+        ]
+      },
+      {
+        "title": "4. Intellectual Property Rights",
+        "content": [
+          "4.1 IST Legal, or the third party from which IST Legal derives its rights, retains ownership of all its rights (including intellectual property rights) related to the Platform, and the User's access to the Platform does not imply any grant of license or other right beyond what is stated in section 2.1.",
+          "4.2 The User shall respect IST Legal's, and where applicable third party's, rights, and the User is, without limitation of amount, responsible for violations of these rights, including unauthorized forwarding of the Platform or related rights to third parties.",
+          "4.3 Reproduction, distribution and other making available or disposal of the Platform is not permitted without IST Legal's consent."
+        ]
+      },
+      {
+        "title": "5. Confidentiality and Data Protection",
+        "content": [
+          "5.1 IST Legal will process the User's personal data in accordance with IST Legal's privacy policy.",
+          "5.2 The User is responsible for ensuring that the User has the right to share any information the User uploads to the Platform."
+        ]
+      },
+      {
+        "title": "6. Shutdown and Termination",
+        "content": [
+          "IST Legal may at any time and without giving reasons shut down the Platform as a whole and/or terminate or shut down the User's access to the Platform. Upon such shutdown and/or termination, the User's right to use the Platform ceases immediately."
+        ]
+      },
+      {
+        "title": "7. Changes to the Terms",
+        "content": [
+          "IST Legal has the right to change these Terms at any time. Continued use of the Platform after such changes constitutes the User's acceptance of the new Terms."
+        ]
+      },
+      {
+        "title": "8. Applicable Law and Disputes",
+        "content": [
+          "These Terms shall be governed by and construed in accordance with Rwandan law. Any disputes shall be settled by a general court."
+        ]
+      }
+    ]
+  },
+  "pricingFooter": {
+    "title": "Have Questions About Our Pricing?",
+    "contactUs": "Contact us",
+    "description": "We're here to help! If you have any questions or need assistance,"
+  },
+  "reason-why": {
+    "heading": "IST Legal <br /> AI benefits",
+    "subheading": "Increase productivity with our advanced AI-powered platform. Streamline your legal operations <br class='hidden xl:block' /> and enhance your practice efficiency.",
+    "reason-one": "<b>Strategic decision making: </b> </br /> empowers legal professionals with data-driven insights for improved client satisfaction.",
+    "reason-two": "<b>Enhanced efficiency: </b> </br /> reduces time spent on manual document review and legal research, allowing lawyers to take on more cases.",
+    "reason-three": "<b>Cost savings: </b> </br /> automates repetitive tasks and reduces operational costs for firms of all sizes.",
+    "reason-four": "<b>Improved accuracy: </b> </br /> minimizes human errors in document analysis and data entry."
+  },
+  "pricing-card" : {
+    "title" : "Empowering Your Business with Tailored Solutions",
+    "title-desc": "From seamless onboarding to flexible pricing and exceptional user experiences, we provide everything you need to succeed with our platform.",
+    "heading-one": "User Experience",
+    "desc-one": "An intuitive interface with user-friendly navigation. Round-theclock customer support via phone, email, and live chat.",
+    "heading-two": "Training and onboarding",
+    "desc-two": "Our training and onboarding programs are essential for tool adoption. User feedback is valued, and we regularly update our software based on it and the latest technological advancements. Users can also suggest and prioritize new features through our collaborative roadmap.",
+    "heading-three": "Pricing and Licensing",
+    "desc-three": "Choose between monthly or annual billing, with discounts for long-term commitments. Enjoy a 10-day free trial before committing."
+  },
+  "features" : {
+    "title" : "Features",
+    "heading-one": "Intelligent document analysis",
+    "desc-one": "It helps with the efficient review of legal documents and contracts by rapidly analyzing and pinpointing crucial clauses, terms, and potential risks, providing recommendations, and generating summaries of extensive legal documents for faster decision-making.",
+    "heading-two": "Predictive Analytics",
+    "desc-two": "We analyze historical case data to predict legal outcomes and risks, empowering legal teams with data-driven insights. Our platform enhances decision-making by forecasting results, identifying patterns, and mitigating risks. It also streamlines client interactions with tailored recommendations for more strategic legal planning.",
+    "heading-three": "Advanced Legal Research",
+    "desc-three": "Contextual Case Law Search identifies relevant case precedents and legal opinions based on specific contexts, providing real-time statutory updates that track legal changes across jurisdictions. This ensures compliance and empowers legal professionals with up-to-date insights."
+  },
+  "pricing": {
+    "heading": "Pricing Plans",
+    "description": "Choose the plan that works best for you",
+    "header": "Pricing Plans",
+    "subheader": "Choose the plan that works best for you",
+    "monthly": "Monthly Billing",
+    "yearly": "Yearly Billing",
+    "save": "Save 20%",
+    "getStarted": "Get Started",
+    "mostPopular": "Most Popular",
+    "features": "Features included:",
+    "plans": {
+      "personal": {
+        "title": "Personal",
+        "features": [
+          "Basic AI Legal Assistant",
+          "100 queries per month",
+          "Email Support",
+          "Basic Templates"
+        ]
+      },
+      "basic": {
+        "title": "Basic",
+        "features": [
+          "Everything in Personal",
+          "Unlimited queries",
+          "Priority Support",
+          "Custom Branding"
+        ]
+      },
+      "business": {
+        "title": "Business",
+        "features": [
+          "Everything in Basic",
+          "Team Collaboration",
+          "API Access",
+          "Dedicated Account Manager"
+        ]
+      },
+      "enterprise": {
+        "title": "Enterprise",
+        "features": [
+          "Everything in Business",
+          "SLA Support",
+          "Custom Solutions",
+          "Document Analysis",
+          "On-premise Deployment",
+          "Customized Templates"
+        ]
+      }
+    }
+  },
+  "news": {
+    "title":"News",
+    "qura": {
+      "header": "Foyen's AI Success Story with Qura and IST Legal - now available to all",
+      "items": [
+        {
+          "body": "After trying several AI products, Foyen decided to move forward only with Qura and IST Legal, which they have rolled out across the entire firm of nearly 100 practitioners.",
+          "quote": "“Using Qura as the new generation of search engines to efficiently retrieve necessary sources for extended legal research and quickly verify generative AI output has created an unbeatable combination with IST Legal's Generative AI platform. Going back to a traditional legal workflow is simply not an option.”",
+          "citee": "- Madeleine Jönsson, Partner at Foyen"
+        },
+        {
+          "body": "The IST Legal platform, which started as an internal GenAI project, worked so well that Foyen decided to move the platform to IST Legal, an independent company, which will launch to the entire Nordic legal market.",
+          "quote": "Urubuga rwa IST Legal platform, rwatangiye nk’ umushinga w’ imbere wa GenAI, wakoze neza ku buryo Foyen yahisemo kwimurira urubuga muri IST Legal, isosiyete yigenga, izatangiza isoko ry’ amategeko yose ya Nordic.",
+          "citee": "- Richard Sahlberg, partner at Foyen and CEO at IST Legal"
+        },
+        {
+          "body": "Inspired by Foyen's AI success in combining the two tools, Qura and IST Legal will now enter into a partnership allowing overlapping customers to easily use both products together to create a powerful AI toolkit.",
+          "quote": "“We have seen many GenAI platforms, and the IST Legal platform stands out. Foyen has demonstrated the value in combining Qura with the IST Legal platform, which this partnership aims to bring to a broader audience.”",
+          "citee": "- Arvid Winterfeldt, CEO Qura"
+        }
+      ],
+      "conclusion": "More information about this partnership will be communicated to Qura's and IST Legal's customers."
+    },
+    "podcast": {
+      "title": "OpenAI o1 podcast",
+      "body": "IST Legal has published its first AI-generated podcast. Based on tech innovations from the last week, both the script and audio is entirely AI-generated based on public sources, with no manual editing."
+    }
+  },
+  "navbar": {
+    "home": "Home",
+    "about": "About",
+    "services": "Services",
+    "pricing": "Pricing",
+    "news": "News",
+    "contact": "Contact"
+  }
+}

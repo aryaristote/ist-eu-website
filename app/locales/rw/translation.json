@@ -1,0 +1,267 @@
+{
+    "navBarItems": {
+      "about": "Ibyerekeye",
+      "services": "Ibisubizo",
+      "contact": "Twandikire",
+      "pricing": "Ibiciro"
+    },
+    "navbar": {
+      "home": "Ahabanza",
+      "about": "Abo turibo",
+      "services": "Serivisi",
+      "pricing": "Ibiciro",
+      "news": "Amakuru",
+      "contact": "Twandikire"
+    },
+    "cta": "Tangira",
+    "login": "Injira",
+    "home": {
+      "heading": "Ongera imikorere myiza hamwe nu rubuga rwacu ukoresheje AI!",
+      "text": "Ongera umusaruro mu mategeko wifashishije Ubwenge bw'Ikoranabuhanga."
+    },
+    "foytech": {
+      "heading": "Intego",
+      "text": "Iyobowe n’umuyobozi mukuru, Mariam M. Muganga, IST Legal yakozwe kugira yongerere imbaraga abanyamategeko Yashinzwe kugira ihe imbaraga impuguke mu by'amategeko kandi ikomeza kunononsorwa n’inzobere muri urwo rwego hifashishijwe  ubwenge bw’ ikoranabuhanaga(AI)."
+    },
+    "cookie": {
+      "text": "Dukoresha ububiko bw’agateganyo kugirango twizere neza ko umukiriya abona <br />imikoreshereje myiza y’ urubuga. Mu gukomeza, wemeye gukoresha ububiko bw’agateganyo byacu.",
+      "accept": "Emeza",
+      "decline": "Hakana"
+    },
+    "rumpole": {
+      "heading": "Ibijyanye na IST Legal",
+      "text1": "IST Legal n’urubuga rwakozwe kugira rufashe abanyamategeko kwihutisha akazi. Sisitemu yashyiriweho abanyamategeko kugira yihutishe imikorere ,gusesengura amategeko no kubona amategeko mashya ni mikirize y’ imanza zatambutse."
+    },
+    "try": {
+      "text": "Gerageza kubuntu"
+    },
+    "contact-us": "Twandikire",
+    "view-more": "Reba byinshi", 
+    "team": {
+      "heading": "Umuyobozi wa IST Legal Rwanda",
+      "text1": "Mariam, umwe mu bashinze ibigo bibiri by’ikoranabuhanga bikomeye, harimo Academic Bridge na KudiBooks arangajwe imbere no guhanga udushya, cyane cyane mu guhuza ikoranabuhanga rya AI mu guhindura inzego z'uburezi n’ amategeko. Urugendo rwatangiye mbere y’uko arangiza icyiciro cya kaminuza mu Ikoranabuhanga mu bya mudasobwa muri Kaminuza y’u Rwanda mu 2015, abitewe n'ishyaka ryo gukoresha ikoranabuhanga mu gukemura ibibazo bifatika by'abantu. Mu mwanya we nka CEO wa Academic Bridge na KudiBooks, Mariam yageze ku ntsinzi mu gucunga ibikorwa by’ubucuruzi, iterambere ry’ibicuruzwa, no kwagura amasoko. Muyobozi bwe, izi gahunda zahindutse imbuga zihanga udushya zituma abarimu, abanyeshuri, n'ibigo by’ubucuruzi bongeramo ubushobozi.",
+      "text2": "Muri IST Legal, ari ku isonga mu gukoresha AI mu guteza imbere no kunoza inzira z'ubucamanza, atanga ibisubizo birambye ku mazu y’amategeko no mu mashami y’amategeko. Icyerekezo cye n’ ugushyiraho umuryango w’ikoranabuhanga wigenga muri Afurika, aho ibisubizo bikomoka imbere byubakiye ku AI bizana impinduka zifatika. Ubufatanye bwa Mariam mu guhanga udushya n’ubuyobozi bwiza buzahindura ahazaza mu koranabuhanga muri Afurika no hanze yayo."
+    },
+    "faq": {
+      "heading": "Ibibazo Bibazwa Kenshi",
+      "haveQuestions": "Ufite ibindi bibazo?",
+      "q1": "Ushobora kwinjiza amakuru y’ ibanga ku rubuga ?",
+      "a11": "Mu ngengabihe ya Legal Q&A, moteri zitandukanye za AI zikoreshwa rimwe na rimwe. Ibi bisobanuye ko moteri ya AI yo hanze ishobora gukoreshwa, bivuze ko amakuru yibanga atagomba kwinjizwa mu bisobanuro, ahubwo n’ ibibazo byemewe gusa n'amategeko, nko gusaba gutegura ubushakashatsi bwa memo/byemewe n'amategeko ku kibazo runaka. Ariko, IST Legal ntishobora ku biryozwa niba ikoranabuhanga rikoreshwa mu buryo bunyuranyije naya mabwiriza.",
+      "a12": "Urubuga rwa IST Legal rufite uburyo bwo gukoresha moteri ya AI mu gihugu iri gukoreramo mugihe itunganya amakuru yashyizwe mubikorwa, bigafasha gukoresha ayo makuru hamwe nikoranabuhanga rya AI. Wasaba IST Legal ibisobanuro birambuye byerekana uburyo urubuga rwumwuga rwateguwe kugirango hubahirizwe umurongo ngenderwaho w'abakiriya ku mikoreshereze ya AI.",
+      "q2": "Ni ubuhe bwoko bw'amakuru akoreshwa ku rubuga rwa IST rwemewe n'amategeko ?",
+      "a2": "Urubuga rushingiye ku mategeko rusange abari ku karubanda. Mu bikorwa by’ urubuga rwa IST Legal, birashoboka kongeramo amakuru yawe yuzuza amakuru rusange yemewe n'amategeko.",
+      "q3": "Nigute umutekano wa IST Legal AI ?",
+      "a3": "Twubahiriza amahame mpuzamahanga yo kurinda amakuru kandi tukemeza ko ibyangombwa byawe byemewe bikomeza kuba ibanga.",
+      "q4": "Ni ubuhe bwoko bw'inyandiko zemewe zishobora gutunganywa na AI ?",
+      "a4": "Sisitemu yatojwe kumyandiko itandukanye yemewe n'amategeko kandi ishobora gukoresha indimi ni myanzuro y’ inkiko nyinshi.",
+      "q5": "Ese hari amahugurwa atangwa ku bakoresha bashya ?",
+      "a5": "Yego, dutanga amahugurwa yuzuye ku bakoresha bose bashya. Ibi birimo inyigisho za videwo, inyandiko, hamwe n’inama  nyigisho yo kuri murandasi. Itsinda ryacu riba ryiteguye guhaza ibyifuzo ryaba bakoresha urubuga.",
+      "q6": "Ese urubuga rushobora guhindurwa mu buryo bwihariye bwa banyamategeko bakeneye ?",
+      "a6": "Cyane rwose! Ihuriro ryacu rya AI rirashobora guhindurwa kugirango rihuze aho ukorera amategeko hamwe n’ akazi. Dushobora guhuza urubuga n’ ijambo ry’ ikigo cyawe, inyandikorugero yinyandiko, nibisabwa byemewe n'amategeko.",
+      "q7": "Ni ubuhe buryo bw' ubufasha buhari ?",
+      "a7": "Dutanga ubufasha bwa tekiniki amasaha 24/7 mu buryo butandukanye harimo imeyili, telefoni, na chat. Ikipe yacu y'ubufasha irimo impuguke mu by'ikoranabuhanga mu by'amategeko bumva neza impande zombi za tekiniki n'amategeko y'urubuga.",
+      "q8": "Amavugurura y’ urubuga akorwa ryari ?",
+      "a8": "Urubuga rwacu rukorerwa amavugurura umunsi ku munsi kugira tudasigara inyuma, hari ingingo nshya tuba twongeramo bitewe nibyo abakoresha urubuga baba badusobanuriye."
+    },
+    "contact-form": {
+      "heading": "Witeguye kubona urubuga mungiro?",
+      "text": "Uzuza urupapuro rwo gutangira. Tuzaguhamagara tuguhe ubusobanuro muri macye verisiyo y’ ubuntu ya IST Legal.",
+      "form-heading": "Tangira",
+      "name": "Izina",
+      "email": "Imeri",
+      "company": "Ubucuruzi",
+      "submit": "Ohereza icyifuzo",
+      "submitting": "Kohereza ...",
+      "success": "Urakoze kubibazo byawe!<br />Tuzakugarukira vuba bishoboka.",
+      "error": "Kubwamahirwe, habaye ikosa. Ongera ugerageze.",
+      "qg": "Icyicaro gikuru",
+      "phone": "Terefone"
+    },
+    "service": {
+      "title": "Foyen yatangije IST Legal kubijyanye na tekinoroji ya AI mumategeko ya Nordic",
+      "body": "Dufite urubuga rushobora gukoreshwa hamwe namakuru yiteguye yemewe, amakuru yumukiriya wenyine, yakiriwe kuri seriveri ya IST Legal cyangwa yakiriwe kuri seriveri yimbere yimbere yabakiriya, hamwe no gukoresha moteri ya AI y'imbere cyangwa hanze kandi hamwe cyangwa idahuza na igishushanyo mbonera nizina rya domaine ukurikije ibyifuzo byabakiriya. IST Legal itegura kwerekana ibisubizo byumwuga bisabwe."
+    },
+    "contact": {
+      "subtitle": "Umuyobozi mukuru wa IST Legal, Umunyamategeko akaba n'umufatanyabikorwa mu kigo cy'amategeko cya Foyen",
+      "body": "Richard Sahlberg yakoraga muri Foyen Advokatfirma kuva mu 2010, azobereye mu mategeko agenga amasezerano n'amategeko. Mbere yibyo, yagiye akora mubikorwa bya IT hamwe nuburyo butandukanye bwo guteza imbere IT.",
+      "call": "Twandikire:"
+    },
+    "footer": {
+      "copyRight": "",
+      "Privacy": "Amabanga no kurinda amakuru",
+      "terms-of-service": "Amategeko yo gukoresha"
+    },
+    "terms-of-service": {
+      "heading": "Amabwiriza rusange ya serivisi",
+      "text": "IST Legal itanga ibikorwa remezo namakuru rusange yemewe n'amategeko. IST Legal ntabwo ashinzwe amakuru yatanzwe nurubuga cyangwa amakuru abakiriya bongeraho kurubuga. ",
+      "full-terms": [
+        {
+          "title": "1. Intangiriro",
+          "content": [
+            "Aya mabwiriza rusange ya serivisi ('amabwiriza') akoreshwa mu gukoresha imiyoboro ya Al ya IST Legal. Ukoresheje uru rubuga, umugenerwabikorwa ('Umugenerwabikorwa') yemera aya Masezerano."
+          ]
+        },
+        {
+          "title": "2. Uko ikoreshwa",
+          "content": [
+            "2.1 IST Legal yemerera umugenerwabikorwa uburenganzira butaziguye, budashobora kwimurwa bwo gukoresha urubuga ukurikije amabwiriza yagenwe.",
+            "2.2 Umugenerwabikorwa ntashobora gukoporora, guhindura, gukwirakwiza, kugurisha cyangwa gukodesha igice icyo aricyo cyose ku rubuga. "
+          ]
+        },
+        {
+          "title": "3. Uburyozwe",
+          "content": [
+            "3.1 Urubuga rutangwa 'nkuko biri' nta garanti iyo ari yo yose yerekana cyangwa ishyirwaho.",
+            "3.2 Urubuga n’ ibisubizo byatanzwe nu rubuga bishingiye ku mategeko yashyizwe hanze n’ inzego z’ ibishinzwe z’ u Rwanda. IST Legal ntabwo ifite mu nshingano kunononsora amategeko niba ariyo, yuzuye byose bigendana n' amategeko yashyizwe hanze. ",
+            "3.3 IST Legal ntanshingano ifite ku makuru Umugenerwabikorwa yongeyeho ku Rubuga.",
+            "3.4 Gukoresha urubuga  n’ ibisubizo byatanzwe n’ urubuga ntabwo bigize inama ikigo cyaguha. IST Legal nta nshingano ifata zingaruka z’ amafaranga zituruka ku bisubizo byatanzwe hamwe nuyikoresha, harimo inama zishobora gukorecwa ku bandi bantu.IST Legal batagishijwe inama. ",
+            "3.5 Ntakintu na kimwe IST Legal yemeye ishobora kuryozwa n’ umugenerwabikorwa ku bihombo bitaziguye cyangwa ibyangiritse harimo ariko ntibigarukira gusa ku bihombo mu kazi, gutakaza inyungu ziteganijwe, gutakaza cyangwa kugarura amakuru, gutakaza ubushake cyangwa ubundi bwoko bwibyangiritse. IST legal Yemewe n'amategeko yose uko yakabaye muri aya Masezerano kandi Umukoresha ukoresha urubuga agarukira ku giciro fatizo kimwe (1). ",
+            "3.6 Mugihe Umugenerwabikorwa yarenze ku masezerano, cyangwa agakoresha urubuga binyuranyije nibyemeranyijweho uhagarariye urubuga azatanga ibirego byindishyi zuko urubuga yarukoresheje binyuranyije nibyemeranyijwe, yishyure IST Legal ibyangiritse byose byatewe n’ umugenerwabikorwa biturutse kubyo atubahirije mu masezerano. "
+          ]
+        },
+        {
+          "title": "4. Uburenganzira ku mutungo bwite",
+          "content": [
+            "4.1 IST Legal cyangwa undi muntu wa gatatu, IST Legal, igumana uburenganzira bwayo bwose (harimo uburenganzira ku mutungo bwite) bujyanye nu rubuga, umugenerwabikorwa guhabwa uburyo bwo ukoresha urubuga ntago bisobanura ko afite kurukoresha binyuranye nibyavuzwe kuri 2.1.",
+            "4.2 Umugenerwabikorwa agomba kubaha IST legal naho biri ngombwa undi muntu wa gatatu .umugenerwabikorwa nta mbibi ,abafite muncinga ibikorwa ibyari byose bihabanye ibyo yemerewe. Harimo gutanga makuru y' urubuga ku muntu utabyemerewe.",
+            "4.3 Gutanga cyangwa gukora ibindi ku rubuga ntibyemewe IST Legal itabyemeye cyangwa ngimenyecwe."
+          ]
+        },
+        {
+          "title": "5. Amabanga no kurinda amakuru",
+          "content": [
+            "5.1 IST Legal ibika amakuru y’ umugenerwabikorwa ikurikije uburyo bwayo bwihariye babikamo ibanga.",
+            "5.2 Umugenerwabikorwa agomba kumenya neza ko umugenerwabikorwa afite uburenganzira bwo gusangiza amakuru ajya ku rubuga."
+          ]
+        },
+        {
+          "title": "6. Guhagarika",
+          "content": [
+            "IST Legal ishobora guhagarika urubuga igihe icyo aricyo cyose kandi idatanze impamvu kugufunga urubuga muri rusange cyangwa guhagarika uburyo umugenerwabikorwa akoresha urubuga. Mu gihe cyo guhagarika, uburenganzira bw’ abagenerwabikorwa bwo gukoresha urubuga buhita buhagarara."
+          ]
+        },
+        {
+          "title": "7. Guhindura Amabwiriza",
+          "content": [
+            "IST Legal ifite uburenganzira bwo guhindura aya mabwiriza umwanya uwariwo wose. Kubera gukomeza gukoresha urubuga bigendanye no kuzana amabwiriza yandi mashya ngenderwaho."
+          ]
+        },
+        {
+          "title": "8. Amategeko akurikizwa",
+          "content": [
+            "Aya Mategeko azagengwa kandi asobanurwe hakurikijwe amategeko y’ u Rwanda. Amakimbirane ayariyo yose azakemurwa n'urukiko rusange."
+          ]
+        }
+      ]
+    },
+    "pricingFooter": {
+      "title": "Ufite Ibibazo ku Biciro byacu?",
+      "contactUs": "Twandikire",
+      "description": "Turi hano kugira ngo tugufashe! Niba ufite ibibazo cyangwa ukeneye ubufasha,"
+    },
+    "reason-why": {
+      "heading": "Impamvu wakorana natwe?",
+      "subheading": "Ongera umusaruro hamwe n’ urubuga rwacu rwa AI. Komeza ibikorwa byawe bijyanye n' amategeko kandi <br class='hidden xl:block' /> uzamure ishyirwa mu bikorwa ryawe neza.",
+      "reason-one": "Urubuga Rwacu rwifashisha ingufu za AI rutanga uburyo bwihuse bwo gusesengura inyandiko z'amategeko no gufasha abavoka kubona ibisubizo byihuse kandi byizewe mu gihe gito.",
+      "reason-two": "Urubuga rwacu rufasha abanyamategeko  kugabanya umwanya bafata basesengura ibirego cyangwa akandi kazi kajyanye n’ amategeko bakenewe.",
+      "reason-three": "Urubuga rwacu rugabanyiriza abanyamategeko amafaranga bakoreshaga mu kwishyura abakora ubushakashatsi ku manza zitandukanye cyangwa ibindi bikenwe mukazi kabanyamategeko.",
+      "reason-four": "Urubuga rwacu rufasha abarukoresha kugabanya amakosa y' imyandikire cyangwa kugira ibyo basimbuka mu murongo w' akazi bakora"
+    },
+    "pricing-card" : {
+      "title" : "Guha imbaraga ibikorwa byawe hamwe n’ ibisubizo byihariye",
+      "title-desc": "Kuva mu gutangira gukorana natwe kugeza ku biciro byiza hamwe n’ubuhamya bwihariye, dutanga ibishoboka byose kugira unogerwe n’ urubuga rwacu.",
+      "heading-one": "Imikorere y’ urubuga",
+      "desc-one": "Uburyo bwo gukoresha urubuga bworoheye buriwese. Hari n’ ubufasha mu gihe uhuye n’ ikibazo wanyuza ubutumwa bugufi kuri imeri cyangwa ugahamagara ugahabwa ubufasha bwihuse.",
+      "heading-two": "Amahugurwa",
+      "desc-two": "Ikigo gitanga amahugurwa ku mikoreshereze y’ urubuga. Ibitekerezo byabakoresha urubuga(Software) bihabwa agaciro kandi duhora tuvugurura urubuga(software) rwacu bigendanye ni terambere rigezweho mu koranabuhanga. Abakoresha urubuga barashobora gutanga ibitekerezo mukuvugurura urubuga.",
+      "heading-three": "Ibiciro",
+      "desc-three": "Gukoresha urubuga uhitamo kwishyura ukwezi cyangwa ku mwaka ubone igabanyirizwa kubahitamo kwishyura igihe kirekire. Abakiriya bacu tubaha iminsi 10 yigerageza mbere yo kwiyemeza gukorana natwe."
+    },
+    "features" : {
+      "title" : "Ibirimo",
+      "heading-one": "Gusesengura inyandiko",
+      "desc-one": "Ifasha mu gusubiramo neza inyandiko zemewe n’ amategeko mu gusesengura byihuse no kwerekana ingingo z’ingenzi zigize inyandiko, ibyo kwitondera no kwibandaho, itanga ibyifuzo n’ incamake y' inyandiko nini zemewe n'amategeko kugirango ifate ibyemezo byihuse.",
+      "heading-two": "Ibitegankwa mwi sesengura",
+      "desc-two": "Dusesengura amakuru y’ imanza kugirango tumenye ibizavamo,inkurikizi n’ingaruka, duha imbaraga amatsinda yemewe n’ ubushishozi bushingiye ku makuru. Urubuga rwacu rwihutisha gufata ibyemezo rugateganya ibisubizo, kumenya imiterere, no kugabanya ingaruka.",
+      "heading-three": "Ubushakashatsi buhanitse mu mategeko",
+      "desc-three": "Ishakisha amategeko ishingiye ku bitekerezo by'ingenzi by'amategeko n'imanza zishingiye ku buryo bwihariye, ritanga amakuru mashya ajyanye n'amategeko mu gihe nyacyo, rigenzura impinduka z’amategeko mu gihugu. Ibi byemeza kubahiriza amategeko no guha abakoresha amategeko ubushobozi bwo kubona amakuru agezweho."
+    },
+    "news": {
+      "title":"Amakuru",
+      "qura": {
+        "header": "Intsinzi ya AI ya Foyen hamwe na Qura na IST byemewe - ubu iraboneka kuri bose",
+        "items": [
+          {
+            "body": "Nyuma yo kugerageza ibicuruzwa byinshi bya AI, Foyen yahisemo gutera imbere gusa hamwe na Qura na IST Legal, bakaba barazengurutse ikigo cyose cyabakozi bagera ku 100.",
+            "quote": "Gukoresha Qura nkibisekuru bishya bya moteri zishakisha kugirango ubone neza amasoko akenewe mubushakashatsi bwagutse bwamategeko kandi ugenzure byihuse umusaruro wa AI watanze umusaruro udasanzwe hamwe na IST Legal's Generative AI platform. Gusubira mubikorwa bisanzwe byemewe n'amategeko ntabwo ari amahitamo.",
+            "citee": "- Madeleine Jönsson, Umufatanyabikorwa muri Foyen"
+          },
+          {
+            "body": "Ihuriro ryemewe rya IST, ryatangiye nkumushinga wa GenAI w'imbere, ryakoraga neza kuburyo Foyen yahisemo kwimurira urubuga IST Legal, isosiyete yigenga, izatangiza isoko ryemewe rya Nordic.",
+            "quote": "Gukomatanya AI ibyara umusaruro wa IST Legal hamwe nubushakashatsi bwa Qura budatanga umusaruro byatanze umusaruro udasanzwe mubigo.",
+            "citee": "- Richard Sahlberg, umufatanyabikorwa muri Foyen akaba n'umuyobozi mukuru muri IST Legal"
+          },
+          {
+            "body": "Ahumekewe na AI ya Foyen muguhuza ibikoresho byombi, Qura na IST Legal noneho bazinjira mubufatanye butuma abakiriya barengana bakoresha ibicuruzwa byombi hamwe kugirango bakore ibikoresho bikomeye bya AI.",
+            "quote": "Twabonye amahuriro menshi ya GenAI, kandi IST yemewe n'amategeko iragaragara. Foyen yerekanye agaciro ko guhuza Qura na IST yemewe n'amategeko, ubwo bufatanye bugamije kugeza ku bantu benshi.",
+            "citee": "- Arvid Winterfeldt, CEO Qura"
+          }
+        ],
+        "conclusion": "Andi makuru yerekeye ubu bufatanye azamenyeshwa abakiriya ba Qura na IST Legal."
+      },
+      "podcast": {
+        "title": "OpenAI o1 podcast",
+        "body": "IST Legal yashyize ahagaragara podcast yayo ya mbere yakozwe na AI. Ukurikije udushya twa tekinoloji kuva mucyumweru gishize, inyandiko n'amajwi byombi byakozwe na AI bishingiye ku masoko rusange, nta guhindura intoki."
+      }
+    },
+    "pricing": {
+      "header": "Ibiciro",
+      "subheader": "Hitamo gahunda ikwiye.",
+      "monthly": "Kwishyura Buri Kwezi",
+      "yearly": "Kwishyura Buri Mwaka",
+      "save": "Kuzigama 20%",
+      "getStarted": "Tangira",
+      "mostPopular": "Gihitwa Cyane",
+      "features": "Ibyo urimo:",
+      "plans": {
+        "personal": {
+          "title": "Umuntu ku giti cye",
+          "features": [
+            "Umufasha wa AI mu by'amategeko",
+            "Ibibazo 100 ku kwezi",
+            "Ubufasha bwa imeyili",
+            "Inyandiko z'ibanze"
+          ]
+        },
+        "basic": {
+          "title": "Ibanze",
+          "features": [
+            "Byose biri muri gahunda y'umuntu ku giti cye",
+            "Ibibazo bitagira umubare",
+            "Ubufasha bwihuse",
+            "Ikirango cyawe bwite"
+          ]
+        },
+        "business": {
+          "title": "Ubucuruzi",
+          "features": [
+            "Byose biri muri gahunda y'ibanze",
+            "Gukorera hamwe kw'ikipe",
+            "Uburyo bwa API",
+            "Umuyobozi w'umwihariko w'konti"
+          ]
+        },
+        "enterprise": {
+          "title": "Ikigo",
+          "features": [
+            "Byose biri muri gahunda y'ubucuruzi",
+            "Ubufasha bwa SLA",
+            "Ibisubizo byihariye",
+            "Isesengura ry'inyandiko",
+            "Gushyiraho ku rubuga rwawe",
+            "Inyandiko zihariye"
+          ]
+        }
+      }
+    }
+  }
