@@ -25,7 +25,7 @@ const ContactForm = () => {
       price: "",
       features: [
         "Basic AI Legal Assistant",
-        "100 queries per month", 
+        "100 queries per month",
         "Email Support",
         "Basic Templates"
       ],
@@ -118,7 +118,7 @@ const ContactForm = () => {
   const handleInputChange = (e) => {
     const { name, value } = e.target;
     setFormData(prev => {
-      const newData = { ...prev, [name]: value }; 
+      const newData = { ...prev, [name]: value };
 
       if (name === 'planTitle') {
         const selectedPlan = plans.find(plan => plan.title === value);
@@ -127,9 +127,9 @@ const ContactForm = () => {
           newData.userRange = selectedPlan.userRange || "N/A";
         }
       }
-      
+
       return newData;
-    }); 
+    });
     if (errors[name]) {
       setErrors(prev => ({ ...prev, [name]: '' }));
     }
@@ -137,10 +137,10 @@ const ContactForm = () => {
 
   const handlePlanChange = (e) => {
     const selectedPlan = plans.find(plan => plan.title === e.target.value);
-    const price = formData.billingPeriod === 'monthly' 
+    const price = formData.billingPeriod === 'monthly'
       ? (selectedPlan.promoPrice || selectedPlan.price || "Free")
       : (selectedPlan.annualPrice || "Free");
-    
+
     setFormData({
       ...formData,
       planTitle: selectedPlan.title,
@@ -172,10 +172,10 @@ const ContactForm = () => {
     setErrors({});
     setSubmitError('');
 
-    try { 
+    try {
       const finalPrice = formData.billingPeriod === 'yearly'
         ? (formData.price * 12 * 0.8).toFixed(2)
-        : formData.price; 
+        : formData.price;
 
       const submissionData = {
         fullName: formData.fullName,
@@ -199,9 +199,9 @@ const ContactForm = () => {
 
       if (!response.ok) {
         throw new Error(result.error || 'Failed to submit form');
-      } 
+      }
 
-      setIsSuccess(true); 
+      setIsSuccess(true);
 
       setFormData({
         fullName: '',
@@ -212,7 +212,7 @@ const ContactForm = () => {
         planTitle: plans[0].title,
         price: plans[0].promoPrice || plans[0].price || "Free",
         userRange: plans[0].userRange || "N/A"
-      }); 
+      });
 
       setTimeout(() => {
         setIsSuccess(false);
@@ -237,29 +237,6 @@ const ContactForm = () => {
             <p className="text-muted-foreground md:text-xl/relaxed text-left">
               {t("contact-form.text")}
             </p>
-            <div className="pt-8 flex flex-col md:flex-row gap-3 text-muted-foreground">
-              <div className="flex flex-row items-center align-center gap-2">
-                <SlLocationPin className="font-bold" size={30} />
-                <div className="flex flex-col">
-                  <span className="text-[12px]"><b>{t("contact-form.qg")}: </b></span>
-                  <span className="text-black font-semibold opacity-75 text-[14px]">57 KG 28 Av Kigali, RW</span>
-                </div>
-              </div>
-              <div className="flex flex-row items-center align-center gap-2">
-                <BsTelephone className="font-bold" size={28} />
-                <div className="flex flex-col">
-                  <span className="text-[12px]"><b>{t("contact-form.phone")}: </b></span>
-                  <span className="text-black font-semibold opacity-75 text-[14px]">+250 795 291 187</span>
-                </div>
-              </div>
-              <div className="flex flex-row items-center align-center gap-2">
-                <BsEnvelopeOpen className="font-bold" size={26} />
-                <div className="flex flex-col">
-                  <span className="text-[12px]"><b>{t("contact-form.email")}: </b></span>
-                  <span className="text-black font-semibold opacity-75 text-[14px]">support@ist-legal.rw</span>
-                </div>
-              </div>
-            </div>
           </div>
           <div className="relative w-full lg:w-1/2 h-full">
             <Reveal keyframes={fadeIn} delay={200} duration={1000} triggerOnce>
@@ -289,7 +266,7 @@ const ContactForm = () => {
   }
 
   return (
-    <section id="contact" className="section mt-12 md:mt-20 xl:0 lg:mt-28">
+    <section id="contact" className="section mt-12 md:mt-40 xl:0 lg:mt-44">
       <Reveal keyframes={fadeIn} delay={200} duration={1000} triggerOnce>
         <div className="pb-12 lg:pb-0 bg-[#cdecf6]">
           <div className="container flex flex-col lg:flex-row items-center justify-between gap-0 xl:gap-24">
@@ -300,29 +277,6 @@ const ContactForm = () => {
               <p className="text-muted-foreground md:text-xl/relaxed text-left">
                 {t("contact-form.text")}
               </p>
-              <div className="pt-8 flex flex-col md:flex-row gap-3 text-muted-foreground">
-                <div className="flex flex-row items-center align-center gap-2">
-                  <SlLocationPin className="font-bold" size={30} />
-                  <div className="flex flex-col">
-                    <span className="text-[12px]"><b>{t("contact-form.qg")}: </b></span>
-                    <span className="text-black font-semibold opacity-75 text-[14px]">57 KG 28 Av Kigali, RW</span>
-                  </div>
-                </div>
-                <div className="flex flex-row items-center align-center gap-2">
-                  <BsTelephone className="font-bold" size={28} />
-                  <div className="flex flex-col">
-                    <span className="text-[12px]"><b>{t("contact-form.phone")}: </b></span>
-                    <span className="text-black font-semibold opacity-75 text-[14px]">+250 795 291 187</span>
-                  </div>
-                </div>
-                <div className="flex flex-row items-center align-center gap-2">
-                  <BsEnvelopeOpen className="font-bold" size={26} />
-                  <div className="flex flex-col">
-                    <span className="text-[12px]"><b>{t("contact-form.email")}: </b></span>
-                    <span className="text-black font-semibold opacity-75 text-[14px]">support@ist-legal.rw</span>
-                  </div>
-                </div>
-              </div>
             </div>
             <div className="relative w-full lg:w-1/2 h-full">
               <Reveal
@@ -351,16 +305,15 @@ const ContactForm = () => {
                           name="fullName"
                           value={formData.fullName}
                           onChange={handleInputChange}
-                          className={`w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-[#3981a2] outline-none focus:border-transparent ${
-                            errors.fullName ? 'border-red-500' : 'border-gray-300'
-                          }`}
+                          className={`w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-[#3981a2] outline-none focus:border-transparent ${errors.fullName ? 'border-red-500' : 'border-gray-300'
+                            }`}
                           placeholder="Enter your full name"
                         />
                         {errors.fullName && (
                           <p className="mt-1 text-sm text-red-500">{errors.fullName}</p>
                         )}
-                      </div> 
-                      
+                      </div>
+
                       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                         <div>
                           <label className="block text-sm font-medium text-gray-700 mb-1">
@@ -371,9 +324,8 @@ const ContactForm = () => {
                             name="email"
                             value={formData.email}
                             onChange={handleInputChange}
-                            className={`w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-[#3981a2] outline-none focus:border-transparent ${
-                              errors.email ? 'border-red-500' : 'border-gray-300'
-                            }`}
+                            className={`w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-[#3981a2] outline-none focus:border-transparent ${errors.email ? 'border-red-500' : 'border-gray-300'
+                              }`}
                             placeholder="Enter your email"
                           />
                           {errors.email && (
@@ -390,9 +342,8 @@ const ContactForm = () => {
                             name="phone"
                             value={formData.phone}
                             onChange={handleInputChange}
-                            className={`w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-[#3981a2] outline-none focus:border-transparent ${
-                              errors.phone ? 'border-red-500' : 'border-gray-300'
-                            }`}
+                            className={`w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-[#3981a2] outline-none focus:border-transparent ${errors.phone ? 'border-red-500' : 'border-gray-300'
+                              }`}
                             placeholder="Enter your phone number"
                           />
                           {errors.phone && (
@@ -400,7 +351,7 @@ const ContactForm = () => {
                           )}
                         </div>
                       </div>
-                      
+
                       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                         <div>
                           <label className="block text-sm font-medium text-gray-700 mb-1">
@@ -413,8 +364,8 @@ const ContactForm = () => {
                             className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 outline-none focus:ring-[#3981a2] focus:border-transparent"
                           >
                             {plans.map((plan) => (
-                              <option 
-                                key={plan.title} 
+                              <option
+                                key={plan.title}
                                 value={plan.title}
                                 disabled={plan.title === "Personal Plan"}
                                 className={plan.title === "Personal Plan" ? "text-gray-400" : ""}
@@ -440,7 +391,7 @@ const ContactForm = () => {
                           </select>
                         </div>
                       </div>
-                      
+
                       <div>
                         <label className="block text-sm font-medium text-gray-700 mb-1">
                           Message *
@@ -451,9 +402,8 @@ const ContactForm = () => {
                           value={formData.message}
                           onChange={handleInputChange}
                           rows={4}
-                          className={`resize-none w-full h-20 px-4 py-2 border rounded-lg focus:ring-2 focus:ring-[#3981a2] outline-none focus:border-transparent ${
-                            errors.message ? 'border-red-500' : 'border-gray-300'
-                          }`}
+                          className={`resize-none w-full h-20 px-4 py-2 border rounded-lg focus:ring-2 focus:ring-[#3981a2] outline-none focus:border-transparent ${errors.message ? 'border-red-500' : 'border-gray-300'
+                            }`}
                           placeholder="Enter your message (minimum 4 words and 12 characters)"
                         />
                         {errors.message && (
@@ -516,9 +466,8 @@ const ContactForm = () => {
                         <Button
                           type="submit"
                           disabled={isSubmitting || formData.planTitle === "Personal Plan"}
-                          className={`w-full primary-btn py-4 h-10 rounded-lg flex items-center justify-center ${
-                            formData.planTitle === "Personal Plan" ? 'bg-gray-300 cursor-not-allowed text-gray-600' : ''
-                          }`}
+                          className={`w-full primary-btn py-4 h-10 rounded-lg flex items-center justify-center ${formData.planTitle === "Personal Plan" ? 'bg-gray-300 cursor-not-allowed text-gray-600' : ''
+                            }`}
                         >
                           {formData.planTitle === "Personal Plan" ? (
                             "Coming Soon"

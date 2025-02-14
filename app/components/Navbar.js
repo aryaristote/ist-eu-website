@@ -75,7 +75,7 @@ export default function Navbar() {
               </button>
             </Fade>
             <Fade delay={400} triggerOnce>
-              <Button className="primary-btn desktop-only">
+              <Button className="primary-btn">
                 <Link href="https://istlegal.rw/" className="px-0 md:px-2">
                   {t("login")}
                 </Link>

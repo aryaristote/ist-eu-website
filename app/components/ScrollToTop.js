@@ -35,7 +35,7 @@ const ScrollToTop = () => {
       {isVisible && (
         <Button
           onClick={scrollToTop}
-          className="fixed bottom-32 right-8 z-50 p-2 primary-btn rounded-full animate-bounce-slow"
+          className="fixed bottom-2 right-2 z-50 p-2 primary-btn rounded-full animate-bounce-slow"
           aria-label="Scroll to top"
         >
           <HiMiniArrowUp className="h-5 w-5" />

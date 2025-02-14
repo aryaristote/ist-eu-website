@@ -29,15 +29,15 @@ export default function Hero() {
 
   return (
     <section className="section hero-section overflow-hidden">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid gap-6 lg:grid-cols-2 lg:gap-12 pt-[80px] md:pt-[90px] lg:pt-[100px]">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid gap-6 lg:grid-cols-2 lg:gap-12 pt-[20px] md:pt-[90px] lg:pt-[100px]">
         <div className="flex flex-col justify-center">
           <div className="space-y-3 mt-24 md:mt-0">
             <motion.div initial="hidden" animate="visible" variants={fadeIn} >
               <div className="space-y-5 sm:space-y-3">
-                <h1 className="text-3xl font-bold tracking-tighter text-left md:text-5xl xl:text-[4.15rem] break-words">
+                <h1 className="text-3xl font-bold tracking-tighter text-center md:text-left md:text-5xl xl:text-[4.15rem] break-words">
                   {t("home.heading")}
                 </h1>
-                <p className="max-w-lg text-muted-foreground text-left text-[12px] sm:text-[16px]">
+                <p className="max-w-lg text-muted-foreground text-center md:text-left text-[12px] sm:text-[16px]">
                   {t("home.text")}
                 </p>
               </div>
@@ -65,7 +65,7 @@ export default function Hero() {
               <VideoComponent />
             </div>
           </motion.div>
-          <div className="flex flex-row align-start justify-start gap-2 pb-20 md:pb-0">
+          <div className="flex flex-row align-start justify-start gap-2 pb-5 md:pb-0">
             <Button className="block md:hidden lg:hidden xl:hidden  h-8 px-4 py-2 sm:h-7 sm:px-3 sm:rounded-md lg:h-10 lg:px-5 lg:rounded-md lg:text-base primary-btn">
               <Link href="https://istlegal.rw/" className="outline-none">
                 {t("login")}
