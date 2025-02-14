@@ -9,15 +9,8 @@ const LanguageSelector = () => {
   const { i18n } = useTranslation();
   const router = useRouter();
 
-  useEffect(() => {
-    // Force language to English
-    if (i18n.language !== 'en') {
-      i18n.changeLanguage('en');
-    }
-  }, [i18n]);
-
   const changeLanguage = () => {
-    const newLanguage = i18n.language === 'en' ? 'en' : 'rw';
+    const newLanguage = i18n.language === 'en';
     i18n.changeLanguage(newLanguage);
     localStorage.setItem('language', newLanguage);
   };

@@ -18,18 +18,18 @@ export const languageName = new Intl.DisplayNames(supportedLanguages, {
   type: "language",
 });
 
-const getInitialLanguage = () => { 
+const getInitialLanguage = () => {
   if (typeof window !== 'undefined') {
-    return localStorage.getItem('language') || 'rw'; 
+    return localStorage.getItem('language') || 'en';
   }
-  return 'rw';  
+  return 'rw';
 };
 
 // Initialize i18n
 i18n.use(initReactI18next).init({
   resources,
-  lng: getInitialLanguage(), 
-  fallbackLng: "rw",
+  lng: getInitialLanguage(),
+  fallbackLng: "en",
   interpolation: {
     escapeValue: false,
   },
