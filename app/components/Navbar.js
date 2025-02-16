@@ -23,7 +23,7 @@ export default function Navbar() {
   // Handle scroll event
   useEffect(() => {
     const handleScroll = () => {
-      setScrolled(window.scrollY > 50); // Change background after 50px scroll
+      setScrolled(window.scrollY > 50);
     };
 
     window.addEventListener("scroll", handleScroll);
@@ -58,11 +58,6 @@ export default function Navbar() {
               <Link href="/pricing" aria-label="FAQ" className="outline-none desktop-only">
                 <p className={pathname === '/pricing' ? "py-[2px] navbar-link-active hover:opacity-100 text-black font-semibold px-0 md:px-3" : "opacity-65 hover:opacity-100 px-0 md:px-3 py-[2px] font-normal"}>
                   {t("pricing.header")}
-                </p>
-              </Link>
-              <Link href={newsUrl} aria-label="News" className="outline-none">
-                <p className={pathname.includes('/news') ? "py-[2px] navbar-link-active hover:opacity-100 text-black font-semibold px-0 md:px-3" : "opacity-65 hover:opacity-100 px-0 md:px-3 py-[2px] font-normal"}>
-                  {t("news.title")}
                 </p>
               </Link>
               <button
