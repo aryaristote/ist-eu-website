@@ -35,7 +35,7 @@ const PriceCard = ({ title, price, promoPrice, monthlyPrice, annualPrice, userRa
           </div>
         ) : (
           <div className="text-sm text-gray-600 mb-4">
-            ${monthlyPrice}/month
+            €{monthlyPrice}/month
             <br />
             <span className="text-xs">({userRange} users)</span>
           </div>
@@ -45,12 +45,12 @@ const PriceCard = ({ title, price, promoPrice, monthlyPrice, annualPrice, userRa
           <div className="mb-4"> 
             <div className="mb-2">
               <span className="text-sm text-gray-500">Promo Price: </span>
-              <span className="line-through text-gray-400 mr-2">${price}</span>
-              <span className="text-2xl font-bold text-gray-900">${promoPrice}/month</span>
+              <span className="line-through text-gray-400 mr-2">€{price}</span>
+              <span className="text-2xl font-bold text-gray-900">€{promoPrice}/month</span>
             </div> 
             <div>
               <span className="text-sm text-gray-500">Annual Price: </span>
-              <span className="text-lg font-semibold text-gray-700">${annualPrice}</span>
+              <span className="text-lg font-semibold text-gray-700">€{annualPrice}</span>
             </div>
           </div>
         )}
@@ -165,17 +165,7 @@ export default function PricingPage() {
   };
 
   return (
-    <PageWrapper>
-      <div className="flex justify-center md:justify-start">
-        <div className="badges relative md:fixed mt-[120px] md:my-[130px] md:ml-[5em]">
-          <p className="flex flex-col items-center justify-center pt-8">
-            <span className="firstLine">GET THE</span>
-            <span className="secondLine">Festive Season Promo Prices</span>
-            <span className="fourthLine">Valid until</span>
-            <span className="thirdLine">March 31st,<br/> 2025</span>
-          </p>
-        </div>
-      </div>
+    <PageWrapper> 
       <section className="pt-16 md:pt-28 pb-16">
         <div className="container mx-auto px-4">
           <Reveal keyframes={fadeIn} fraction={1} delay={200} duration={600} triggerOnce>

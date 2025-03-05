@@ -424,8 +424,8 @@ const ContactForm = () => {
                             {formData.price ? (
                               <span className="font-medium line-through text-gray-500">
                                 {formData.billingPeriod === 'monthly'
-                                  ? `$${plans.find(p => p.title === formData.planTitle)?.price || 0}/month`
-                                  : `$${Math.floor(Number(plans.find(p => p.title === formData.planTitle)?.price || 0) * 12)}/year`}
+                                  ? `€${plans.find(p => p.title === formData.planTitle)?.price || 0}/month`
+                                  : `€${Math.floor(Number(plans.find(p => p.title === formData.planTitle)?.price || 0) * 12)}/year`}
                               </span>
                             ) : (
                               <span className="flex items-center gap-2 bg-gray-100 px-2 py-0.5 rounded-md">
@@ -438,8 +438,8 @@ const ContactForm = () => {
                               <span>Promo Price:</span>
                               <span className="font-medium text-green-600">
                                 {formData.billingPeriod === 'monthly'
-                                  ? `$${formData.price}/month`
-                                  : `$${formData.price}/year`}
+                                  ? `€${formData.price}/month`
+                                  : `€${formData.price}/year`}
                               </span>
                               <span className="ml-1 text-[8px] md:text-xs text-center bg-green-100 text-green-700 px-2 py-0.5 rounded-full">
                                 {formData.billingPeriod === 'monthly' ? 'Special Offer' : '20% off yearly'}

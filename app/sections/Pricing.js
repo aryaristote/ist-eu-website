@@ -30,7 +30,7 @@ const PriceCard = ({ title, price, features, isPopular, period, onGetStarted, us
           </div>
         ) : (
           <div className="text-sm text-gray-600 mb-4">
-            ${monthlyPrice}/month
+            €{monthlyPrice}/month
             <br />
             <span className="text-xs">({userRange} users)</span>
           </div>
@@ -40,12 +40,12 @@ const PriceCard = ({ title, price, features, isPopular, period, onGetStarted, us
           <div className="mb-4">
             <div className="mb-2">
               <span className="text-sm text-gray-500">Promo Price: </span>
-              <span className="line-through text-gray-400 mr-2">${price}</span>
-              <span className="text-2xl font-bold text-gray-900">${promoPrice}/month</span>
+              <span className="line-through text-gray-400 mr-2">€{price}</span>
+              <span className="text-2xl font-bold text-gray-900">€{promoPrice}/month</span>
             </div>
             <div>
               <span className="text-sm text-gray-500">Annual Price: </span>
-              <span className="text-lg font-semibold text-gray-700">${annualPrice}</span>
+              <span className="text-lg font-semibold text-gray-700">€{annualPrice}</span>
             </div>
           </div>
         )}

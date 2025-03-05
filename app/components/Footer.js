@@ -23,7 +23,7 @@ const Footer = () => {
           </div>
           <div className="flex flex-col md:flex-row w-full md:w-auto mb-4 md:mb-0 items-center gap-2">
             <div className="flex flex-raw md:flex-row justify-center w-full md:w-auto items-center gap-6 md:gap-2">
-              <a href="https://istlegal.rw/" className={`primary-btn h-7 md:px-2 md:w-auto text-center border-b-2 border-b-solid border-transparent transition-colors hover:opacity-75 text-white hover:font-medium text-[12px] md:text-sm ${pathname === 'https://istlegal.rw/' ? 'opacity-100 font-medium' : 'opacity-64'}`} >
+              <a href="#" className={`primary-btn h-7 md:px-2 md:w-auto text-center border-b-2 border-b-solid border-transparent transition-colors hover:opacity-75 text-white hover:font-medium text-[12px] md:text-sm ${pathname === 'https://istlegal.rw/' ? 'opacity-100 font-medium' : 'opacity-64'}`} >
                 {t("login")}
               </a> 
               <Link href="/faq" className={`md:w-auto text-center border-b-2 border-b-solid border-transparent transition-colors md:opacity-65 hover:opacity-100 text-white md:text-black lg:text-black hover:font-medium text-[12px] md:text-sm ${pathname === '/faq' ? 'opacity-100 font-medium' : 'opacity-64'}`}>
@@ -36,19 +36,19 @@ const Footer = () => {
             </div>
             <span className="hidden md:inline opacity-65 text-white md:text-black lg:text-black">|</span>
             <div className="flex flex-row md:flex-row w-full md:w-auto items-center justify-center gap-2">
-              <a href="https://linkedin.com/company/ist-legal" target="_blank" className="md:w-auto text-center border-b-2 border-b-solid border-transparent transition-colors md:opacity-65 hover:opacity-100 text-white md:text-black lg:text-black hover:font-medium text-[16px] md:text-sm pt-1" rel="noreferrer" aria-label="Find us on Github" data-tooltip-id="open-linkedin" data-tooltip-content="Find us on Linkedin">
+              <a href="#" target="_blank" className="md:w-auto text-center border-b-2 border-b-solid border-transparent transition-colors md:opacity-65 hover:opacity-100 text-white md:text-black lg:text-black hover:font-medium text-[16px] md:text-sm pt-1" rel="noreferrer" aria-label="Find us on Github" data-tooltip-id="open-linkedin" data-tooltip-content="Find us on Linkedin">
                 <IoLogoLinkedin size={21} />
               </a>
-              <a href="https://www.instagram.com/ISTLegal.rw" target="_blank" className="md:w-auto text-center border-b-2 border-b-solid border-transparent transition-colors md:opacity-65 hover:opacity-100 text-white md:text-black lg:text-black hover:font-medium text-[16px] md:text-sm pt-1" rel="noreferrer" aria-label="Find us on Github" data-tooltip-id="open-linkedin" data-tooltip-content="Find us on Linkedin">
+              <a href="#" target="_blank" className="md:w-auto text-center border-b-2 border-b-solid border-transparent transition-colors md:opacity-65 hover:opacity-100 text-white md:text-black lg:text-black hover:font-medium text-[16px] md:text-sm pt-1" rel="noreferrer" aria-label="Find us on Github" data-tooltip-id="open-linkedin" data-tooltip-content="Find us on Linkedin">
                 <RiInstagramFill size={21} />
               </a>
-              <a href="https://x.com/ISTLegal_rw" target="_blank" className="md:w-auto text-center border-b-2 border-b-solid border-transparent transition-colors md:opacity-65 hover:opacity-100 text-white md:text-black lg:text-black hover:font-medium text-[16px] md:text-sm pt-1" rel="noreferrer" aria-label="Find us on Github" data-tooltip-id="open-linkedin" data-tooltip-content="Find us on Linkedin">
+              <a href="#" target="_blank" className="md:w-auto text-center border-b-2 border-b-solid border-transparent transition-colors md:opacity-65 hover:opacity-100 text-white md:text-black lg:text-black hover:font-medium text-[16px] md:text-sm pt-1" rel="noreferrer" aria-label="Find us on Github" data-tooltip-id="open-linkedin" data-tooltip-content="Find us on Linkedin">
                 <FaSquareXTwitter size={21} />
               </a>
-              <a href="https://www.youtube.com/@ISTLegal_rw" target="_blank" className="md:w-auto text-center border-b-2 border-b-solid border-transparent transition-colors md:opacity-65 hover:opacity-100 text-white md:text-black lg:text-black hover:font-medium text-[16px] md:text-sm pt-1" rel="noreferrer" aria-label="Find us on Github" data-tooltip-id="open-linkedin" data-tooltip-content="Find us on Linkedin">
+              <a href="#" target="_blank" className="md:w-auto text-center border-b-2 border-b-solid border-transparent transition-colors md:opacity-65 hover:opacity-100 text-white md:text-black lg:text-black hover:font-medium text-[16px] md:text-sm pt-1" rel="noreferrer" aria-label="Find us on Github" data-tooltip-id="open-linkedin" data-tooltip-content="Find us on Linkedin">
                 <IoLogoYoutube size={21} />
               </a>
-              <a href="https://www.tiktok.com/@ISTLegal.rw" target="_blank" className="md:w-auto text-center border-b-2 border-b-solid border-transparent transition-colors md:opacity-65 hover:opacity-100 text-white md:text-black lg:text-black hover:font-medium text-[16px] md:text-sm pt-1" rel="noreferrer" aria-label="Find us on Github" data-tooltip-id="open-linkedin" data-tooltip-content="Find us on Linkedin">
+              <a href="#" target="_blank" className="md:w-auto text-center border-b-2 border-b-solid border-transparent transition-colors md:opacity-65 hover:opacity-100 text-white md:text-black lg:text-black hover:font-medium text-[16px] md:text-sm pt-1" rel="noreferrer" aria-label="Find us on Github" data-tooltip-id="open-linkedin" data-tooltip-content="Find us on Linkedin">
                 <BiLogoTiktok size={21} />
               </a>
             </div>

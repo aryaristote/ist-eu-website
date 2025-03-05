@@ -49,12 +49,7 @@ export default function Navbar() {
             </Link>
           </Fade>
           <div className="navbar-link-block gap-2">
-            <Fade delay={200} triggerOnce>
-              <Link href="/faq" aria-label="FAQ" className="outline-none">
-                <p className={pathname === '/faq' ? "py-[2px] navbar-link-active hover:opacity-100 text-black font-semibold px-0 md:px-3" : "opacity-65 hover:opacity-100 px-0 md:px-3 py-[2px] font-normal"}>
-                  FAQ
-                </p>
-              </Link>
+            <Fade delay={200} triggerOnce> 
               <Link href="/pricing" aria-label="FAQ" className="outline-none desktop-only">
                 <p className={pathname === '/pricing' ? "py-[2px] navbar-link-active hover:opacity-100 text-black font-semibold px-0 md:px-3" : "opacity-65 hover:opacity-100 px-0 md:px-3 py-[2px] font-normal"}>
                   {t("pricing.header")}
@@ -68,10 +63,15 @@ export default function Navbar() {
                   {t("navBarItems.contact")}
                 </p>
               </button>
+              <Link href="/faq" aria-label="FAQ" className="outline-none">
+                <p className={pathname === '/faq' ? "py-[2px] navbar-link-active hover:opacity-100 text-black font-semibold px-0 md:px-3" : "opacity-65 hover:opacity-100 px-0 md:px-3 py-[2px] font-normal"}>
+                  FAQ
+                </p>
+              </Link>
             </Fade>
             <Fade delay={400} triggerOnce>
               <Button className="primary-btn">
-                <Link href="https://istlegal.rw/" className="px-0 md:px-2">
+                <Link href="#" className="px-0 md:px-2">
                   {t("login")}
                 </Link>
               </Button>
